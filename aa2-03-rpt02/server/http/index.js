@@ -8,6 +8,7 @@ var server = http.createServer(function (request, response) {
   });
   response.write("Hello HTTP server from node.js"); // WEB response
   response.write("\n");
+  response.write("My ID is AA03! \n");
   response.end();
 });
 
